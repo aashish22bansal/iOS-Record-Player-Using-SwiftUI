@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1779723429AB811D008E259C /* ArmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779723329AB811D008E259C /* ArmView.swift */; };
+		1779723629AB8579008E259C /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1779723529AB8579008E259C /* PlaySound.swift */; };
+		17EC524E29AB413B00B26B99 /* Record_Player_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC524D29AB413B00B26B99 /* Record_Player_AnimationApp.swift */; };
+		17EC525029AB413B00B26B99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC524F29AB413B00B26B99 /* ContentView.swift */; };
+		17EC525229AB413C00B26B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EC525129AB413C00B26B99 /* Assets.xcassets */; };
+		17EC525629AB413C00B26B99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17EC525529AB413C00B26B99 /* Preview Assets.xcassets */; };
+		17EC526029AB413D00B26B99 /* Record_Player_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC525F29AB413D00B26B99 /* Record_Player_AnimationTests.swift */; };
+		17EC526A29AB413D00B26B99 /* Record_Player_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC526929AB413D00B26B99 /* Record_Player_AnimationUITests.swift */; };
+		17EC526C29AB413D00B26B99 /* Record_Player_AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC526B29AB413D00B26B99 /* Record_Player_AnimationUITestsLaunchTests.swift */; };
+		17EC527929AB426000B26B99 /* RecordPlayerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC527829AB426000B26B99 /* RecordPlayerBox.swift */; };
+		17EC527B29AB42F000B26B99 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 17EC527A29AB42F000B26B99 /* music.m4a */; };
+		17EC527D29AB454000B26B99 /* RecordVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17EC527C29AB454000B26B99 /* RecordVIew.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17EC525C29AB413D00B26B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EC524229AB413B00B26B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EC524929AB413B00B26B99;
+			remoteInfo = "Record Player Animation";
+		};
+		17EC526629AB413D00B26B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EC524229AB413B00B26B99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17EC524929AB413B00B26B99;
+			remoteInfo = "Record Player Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1779723329AB811D008E259C /* ArmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmView.swift; sourceTree = "<group>"; };
+		1779723529AB8579008E259C /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		17EC524A29AB413B00B26B99 /* Record Player Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record Player Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EC524D29AB413B00B26B99 /* Record_Player_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_Player_AnimationApp.swift; sourceTree = "<group>"; };
+		17EC524F29AB413B00B26B99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17EC525129AB413C00B26B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17EC525329AB413C00B26B99 /* Record_Player_Animation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Record_Player_Animation.entitlements; sourceTree = "<group>"; };
+		17EC525529AB413C00B26B99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17EC525B29AB413D00B26B99 /* Record Player AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Record Player AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EC525F29AB413D00B26B99 /* Record_Player_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_Player_AnimationTests.swift; sourceTree = "<group>"; };
+		17EC526529AB413D00B26B99 /* Record Player AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Record Player AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EC526929AB413D00B26B99 /* Record_Player_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_Player_AnimationUITests.swift; sourceTree = "<group>"; };
+		17EC526B29AB413D00B26B99 /* Record_Player_AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_Player_AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17EC527829AB426000B26B99 /* RecordPlayerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPlayerBox.swift; sourceTree = "<group>"; };
+		17EC527A29AB42F000B26B99 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = music.m4a; path = ../../../../../../Downloads/Resources/music.m4a; sourceTree = "<group>"; };
+		17EC527C29AB454000B26B99 /* RecordVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordVIew.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EC524729AB413B00B26B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC525829AB413D00B26B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC526229AB413D00B26B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17EC524129AB413B00B26B99 = {
+			isa = PBXGroup;
+			children = (
+				17EC524C29AB413B00B26B99 /* Record Player Animation */,
+				17EC525E29AB413D00B26B99 /* Record Player AnimationTests */,
+				17EC526829AB413D00B26B99 /* Record Player AnimationUITests */,
+				17EC524B29AB413B00B26B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EC524B29AB413B00B26B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EC524A29AB413B00B26B99 /* Record Player Animation.app */,
+				17EC525B29AB413D00B26B99 /* Record Player AnimationTests.xctest */,
+				17EC526529AB413D00B26B99 /* Record Player AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EC524C29AB413B00B26B99 /* Record Player Animation */ = {
+			isa = PBXGroup;
+			children = (
+				17EC524D29AB413B00B26B99 /* Record_Player_AnimationApp.swift */,
+				17EC524F29AB413B00B26B99 /* ContentView.swift */,
+				1779723529AB8579008E259C /* PlaySound.swift */,
+				1779723329AB811D008E259C /* ArmView.swift */,
+				17EC527C29AB454000B26B99 /* RecordVIew.swift */,
+				17EC527829AB426000B26B99 /* RecordPlayerBox.swift */,
+				17EC527A29AB42F000B26B99 /* music.m4a */,
+				17EC525129AB413C00B26B99 /* Assets.xcassets */,
+				17EC525329AB413C00B26B99 /* Record_Player_Animation.entitlements */,
+				17EC525429AB413C00B26B99 /* Preview Content */,
+			);
+			path = "Record Player Animation";
+			sourceTree = "<group>";
+		};
+		17EC525429AB413C00B26B99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17EC525529AB413C00B26B99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17EC525E29AB413D00B26B99 /* Record Player AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				17EC525F29AB413D00B26B99 /* Record_Player_AnimationTests.swift */,
+			);
+			path = "Record Player AnimationTests";
+			sourceTree = "<group>";
+		};
+		17EC526829AB413D00B26B99 /* Record Player AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17EC526929AB413D00B26B99 /* Record_Player_AnimationUITests.swift */,
+				17EC526B29AB413D00B26B99 /* Record_Player_AnimationUITestsLaunchTests.swift */,
+			);
+			path = "Record Player AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EC524929AB413B00B26B99 /* Record Player Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EC526F29AB413D00B26B99 /* Build configuration list for PBXNativeTarget "Record Player Animation" */;
+			buildPhases = (
+				17EC524629AB413B00B26B99 /* Sources */,
+				17EC524729AB413B00B26B99 /* Frameworks */,
+				17EC524829AB413B00B26B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Record Player Animation";
+			productName = "Record Player Animation";
+			productReference = 17EC524A29AB413B00B26B99 /* Record Player Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17EC525A29AB413D00B26B99 /* Record Player AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EC527229AB413D00B26B99 /* Build configuration list for PBXNativeTarget "Record Player AnimationTests" */;
+			buildPhases = (
+				17EC525729AB413D00B26B99 /* Sources */,
+				17EC525829AB413D00B26B99 /* Frameworks */,
+				17EC525929AB413D00B26B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EC525D29AB413D00B26B99 /* PBXTargetDependency */,
+			);
+			name = "Record Player AnimationTests";
+			productName = "Record Player AnimationTests";
+			productReference = 17EC525B29AB413D00B26B99 /* Record Player AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17EC526429AB413D00B26B99 /* Record Player AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EC527529AB413D00B26B99 /* Build configuration list for PBXNativeTarget "Record Player AnimationUITests" */;
+			buildPhases = (
+				17EC526129AB413D00B26B99 /* Sources */,
+				17EC526229AB413D00B26B99 /* Frameworks */,
+				17EC526329AB413D00B26B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17EC526729AB413D00B26B99 /* PBXTargetDependency */,
+			);
+			name = "Record Player AnimationUITests";
+			productName = "Record Player AnimationUITests";
+			productReference = 17EC526529AB413D00B26B99 /* Record Player AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EC524229AB413B00B26B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					17EC524929AB413B00B26B99 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					17EC525A29AB413D00B26B99 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17EC524929AB413B00B26B99;
+					};
+					17EC526429AB413D00B26B99 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 17EC524929AB413B00B26B99;
+					};
+				};
+			};
+			buildConfigurationList = 17EC524529AB413B00B26B99 /* Build configuration list for PBXProject "Record Player Animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17EC524129AB413B00B26B99;
+			productRefGroup = 17EC524B29AB413B00B26B99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EC524929AB413B00B26B99 /* Record Player Animation */,
+				17EC525A29AB413D00B26B99 /* Record Player AnimationTests */,
+				17EC526429AB413D00B26B99 /* Record Player AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17EC524829AB413B00B26B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC525629AB413C00B26B99 /* Preview Assets.xcassets in Resources */,
+				17EC525229AB413C00B26B99 /* Assets.xcassets in Resources */,
+				17EC527B29AB42F000B26B99 /* music.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC525929AB413D00B26B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC526329AB413D00B26B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EC524629AB413B00B26B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC525029AB413B00B26B99 /* ContentView.swift in Sources */,
+				1779723629AB8579008E259C /* PlaySound.swift in Sources */,
+				17EC527D29AB454000B26B99 /* RecordVIew.swift in Sources */,
+				1779723429AB811D008E259C /* ArmView.swift in Sources */,
+				17EC524E29AB413B00B26B99 /* Record_Player_AnimationApp.swift in Sources */,
+				17EC527929AB426000B26B99 /* RecordPlayerBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC525729AB413D00B26B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC526029AB413D00B26B99 /* Record_Player_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17EC526129AB413D00B26B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EC526A29AB413D00B26B99 /* Record_Player_AnimationUITests.swift in Sources */,
+				17EC526C29AB413D00B26B99 /* Record_Player_AnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17EC525D29AB413D00B26B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EC524929AB413B00B26B99 /* Record Player Animation */;
+			targetProxy = 17EC525C29AB413D00B26B99 /* PBXContainerItemProxy */;
+		};
+		17EC526729AB413D00B26B99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17EC524929AB413B00B26B99 /* Record Player Animation */;
+			targetProxy = 17EC526629AB413D00B26B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17EC526D29AB413D00B26B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17EC526E29AB413D00B26B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17EC527029AB413D00B26B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Record Player Animation/Record_Player_Animation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Record Player Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Record-Player-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17EC527129AB413D00B26B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Record Player Animation/Record_Player_Animation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Record Player Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Record-Player-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17EC527329AB413D00B26B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Record-Player-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Record Player Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Record Player Animation";
+			};
+			name = Debug;
+		};
+		17EC527429AB413D00B26B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Record-Player-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Record Player Animation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Record Player Animation";
+			};
+			name = Release;
+		};
+		17EC527629AB413D00B26B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Record-Player-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Record Player Animation";
+			};
+			name = Debug;
+		};
+		17EC527729AB413D00B26B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AK2T82WWSV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "aashish22bansal.Record-Player-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Record Player Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EC524529AB413B00B26B99 /* Build configuration list for PBXProject "Record Player Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC526D29AB413D00B26B99 /* Debug */,
+				17EC526E29AB413D00B26B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EC526F29AB413D00B26B99 /* Build configuration list for PBXNativeTarget "Record Player Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC527029AB413D00B26B99 /* Debug */,
+				17EC527129AB413D00B26B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EC527229AB413D00B26B99 /* Build configuration list for PBXNativeTarget "Record Player AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC527329AB413D00B26B99 /* Debug */,
+				17EC527429AB413D00B26B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EC527529AB413D00B26B99 /* Build configuration list for PBXNativeTarget "Record Player AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EC527629AB413D00B26B99 /* Debug */,
+				17EC527729AB413D00B26B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EC524229AB413B00B26B99 /* Project object */;
+}
